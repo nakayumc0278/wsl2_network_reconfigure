@@ -22,7 +22,7 @@ wsl2_network
 「netsh interface show interface」を実行して、Pulse Secure っぽいIFを見つけて、インターフェース名をコピーする。
 
 
-2．wsl2_network_reconfigure.ps1 の変更
+2．wsl2_network_reconfigure.ps1 の変更 (必ず文字コードはANSIで保存してください)
 メモ帳などでwsl2_network_reconfigure.ps1を開き、下記の部分を変更する。
 
 $vpn = Get-NetIPInterface -InterfaceAlias "イーサネット 2" -AddressFamily IPv4
