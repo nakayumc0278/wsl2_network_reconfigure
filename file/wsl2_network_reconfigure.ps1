@@ -1,5 +1,5 @@
 $wsl = Get-NetIPInterface -InterfaceAlias "vEthernet (WSL)" -AddressFamily IPv4
-$vpn = Get-NetIPInterface -InterfaceAlias "ÉCÅ[ÉTÉlÉbÉg 2" -AddressFamily IPv4
+$vpn = Get-NetIPInterface -InterfaceAlias "„Ç§„Éº„Çµ„Éç„ÉÉ„Éà 2" -AddressFamily IPv4
 $ip = Get-NetIPAddress -InterfaceAlias "vEthernet (WSL)" -AddressFamily IPv4
 $networkIp = "$($ip.IPAddress -replace "\.\d+$", ".0")"
 route delete $networkIp IF $vpn.ifIndex
