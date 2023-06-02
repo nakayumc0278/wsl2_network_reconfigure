@@ -18,14 +18,15 @@ wsl2_network
 ```
 
 # 使い方
-1.コマンドプロンプトを起動し、インターフェースの状況を確認
+1．コマンドプロンプトを起動し、インターフェースの状況を確認
 「netsh interface show interface」を実行して、Pulse Secure っぽいIFを見つけて、インターフェース名をコピーする。
 
-2. wsl2_network_reconfigure.ps1 の変更
+
+2．wsl2_network_reconfigure.ps1 の変更
 メモ帳などでwsl2_network_reconfigure.ps1を開き、下記の部分を変更する。
 
 $vpn = Get-NetIPInterface -InterfaceAlias "イーサネット 2" -AddressFamily IPv4
 　　　　　　　　　　　　　　　　　　　　　　　      ↑の部分を1. でコピーしたインターフェース名に変更する
 
-3. batファイルのショートカットを実行する。(管理者権限で実行するため)
+33．batファイルのショートカットを実行する。(管理者権限で実行するため)
 以降、Pulse Secure が切れたら再度このバッチファイルを実行してください。
