@@ -27,7 +27,8 @@ wsl2_network
 
 メモ帳などでwsl2_network_reconfigure.ps1を開き、下記の部分を変更する。
 
-$vpn = Get-NetIPInterface -InterfaceAlias "イーサネット 2" -AddressFamily IPv4  
+`$vpn = Get-NetIPInterface -InterfaceAlias "イーサネット 2" -AddressFamily IPv4`  
+
 　　　　　　　　　　　　　　　　　　　　　　　      ↑の部分を1. でコピーしたインターフェース名に変更する
 
 ## 3．batファイルのショートカットを実行する。(管理者権限で実行するため)
