@@ -14,7 +14,7 @@ wsl2_network
 ├── file
 │   ├── wsl2_network_reconfigure.bat  # PowerShellを呼び出すバッチファイル
 │   └── wsl2_network_reconfigure.ps1  # Windowsのルーティングを書き換えるスクリプト
-└── wsl2_network_reconfigure.bat.lnk   # バッチファイルを管理者権限で呼び出すショートカットファイル
+└── wsl2_network_reconfigure.bat.lnk  # バッチファイルを管理者権限で呼び出すショートカットファイル
 ```
 
 # 使い方
