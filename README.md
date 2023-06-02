@@ -20,7 +20,7 @@ wsl2_network
 # 使い方
 ## 1．コマンドプロンプトを起動し、インターフェースの状況を確認
 
-「netsh interface show interface」を実行して、Pulse Secure っぽいIFを見つけて、インターフェース名をコピーする。
+「`netsh interface show interface`」を実行して、Pulse Secure っぽいIFを見つけて、インターフェース名をコピーする。
 
 
 ## 2．wsl2_network_reconfigure.ps1 の変更 (必ず文字コードはANSIで保存してください)
