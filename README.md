@@ -28,5 +28,5 @@ wsl2_network
 $vpn = Get-NetIPInterface -InterfaceAlias "イーサネット 2" -AddressFamily IPv4
 　　　　　　　　　　　　　　　　　　　　　　　      ↑の部分を1. でコピーしたインターフェース名に変更する
 
-33．batファイルのショートカットを実行する。(管理者権限で実行するため)
+3．batファイルのショートカットを実行する。(管理者権限で実行するため)
 以降、Pulse Secure が切れたら再度このバッチファイルを実行してください。
