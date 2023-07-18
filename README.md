@@ -1,7 +1,7 @@
 # wsl2_network_reconfigure
 
 # 概要
-WSL2を起動後に Pulse SecureでVPNを接続すると、Windowsのルーティングテーブルがうまく書き換えが行われず
+WSL2を起動後に Pulse SecureでVPNを接続すると、Windowsのルーティングテーブルが書き換えが行われず
 WSL2からインターネット(VPN接続先を含む)に出られなくなることがあります。
 そのため、このバッチファイルを使用してWindowsのルーティングテーブルを強制的に書き換えることで、
 Pulse Secure接続後でもインターネットに出られるようにするものです。
